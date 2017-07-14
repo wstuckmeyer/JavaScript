@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button type='button' id='btn1'>Click Me!</button>
+		<span id="new-text"></span>
+	<button type='button' id='btn2'>Click Plz!</button>
+		<span id="new-text2"></span>
+	<div id="hover">Uhh...excuse me?</div>
+ 	<div><span id="btnpress"></span></div>
+ 	<form onsubmit="checkPassword(), checkUsername(), infoChecker()">
+ 	<h4 id="header">Pick a Username and Password!</h4>
+ 		Enter Username:
+ 		<input type="text" name="username" id="username">
+ 		<br>
+ 		Enter Email:
+ 		<input type="text" name="email" id="email">
+ 		<br>
+ 		Enter Password:
+ 		<input type="text" name="password" id="password" onsubmit="checkPassword()">
+ 		<input type="submit" value="submit">
+ 	</form>
+	
+<script src="DOM.js"></script>
+</body>
+</html>
